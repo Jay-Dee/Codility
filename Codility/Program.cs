@@ -7,10 +7,14 @@
             //    sln.solution(test);
             //}
 
-            int[] sourceArray = { 3, 8, 9, 7, 6 };
-            var sln = new CyclicRotation.Solution();
-            sln.solution(sourceArray, 3);
+            //int[] sourceArray = { 3, 8, 9, 7, 6 };
+            //var sln = new CyclicRotation.Solution();
+            //sln.solution(sourceArray, 3);
 
+
+            int[] sourceArray = { 1, 2, 1, 2, 3, 3, 5, 4, 4, 6, 7, 8, 6, 7, 8 };
+            var sln = new OddOccurrencesInArray.Solution();
+            sln.solution(sourceArray);
 
             Console.ReadKey();
         }
