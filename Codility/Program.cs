@@ -12,9 +12,12 @@
             //sln.solution(sourceArray, 3);
 
 
-            int[] sourceArray = { 1, 2, 1, 2, 3, 3, 5, 4, 4, 6, 7, 8, 6, 7, 8 };
-            var sln = new OddOccurrencesInArray.Solution();
-            sln.solution(sourceArray);
+            //int[] sourceArray = { 1, 2, 1, 2, 3, 3, 5, 4, 4, 6, 7, 8, 6, 7, 8 };
+            //var sln = new OddOccurrencesInArray.Solution();
+            //sln.solution(sourceArray);
+
+            var sln = new FrogJump.Solution();
+            sln.solution(10, 90, 30);
 
             Console.ReadKey();
         }
