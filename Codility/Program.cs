@@ -16,8 +16,12 @@
             //var sln = new OddOccurrencesInArray.Solution();
             //sln.solution(sourceArray);
 
-            var sln = new FrogJump.Solution();
-            sln.solution(10, 90, 30);
+            //var sln = new FrogJump.Solution();
+            //sln.solution(10, 90, 30);
+
+            int[] sourceArray = { 2, 3, 1, 5 };
+            var sln = new MissingElement.Solution();
+            sln.solution(sourceArray);
 
             Console.ReadKey();
         }
