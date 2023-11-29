@@ -19,8 +19,12 @@
             //var sln = new FrogJump.Solution();
             //sln.solution(10, 90, 30);
 
-            int[] sourceArray = { 2, 3, 1, 5 };
-            var sln = new MissingElement.Solution();
+            //int[] sourceArray = { 2, 3, 1, 5 };
+            //var sln = new MissingElement.Solution();
+            //sln.solution(sourceArray);
+
+            int[] sourceArray = { 3, 1, 2, 4, 3 };
+            var sln = new TapeEquilibrium.Solution();
             sln.solution(sourceArray);
 
             Console.ReadKey();
