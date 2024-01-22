@@ -23,9 +23,13 @@
             //var sln = new MissingElement.Solution();
             //sln.solution(sourceArray);
 
-            int[] sourceArray = { 3, 1, 2, 4, 3 };
-            var sln = new TapeEquilibrium.Solution();
-            sln.solution(sourceArray);
+            //int[] sourceArray = { 3, 1, 2, 4, 3 };
+            //var sln = new TapeEquilibrium.Solution();
+            //sln.solution(sourceArray);
+
+            int[] sourceArray = { 1, 3, 1, 4, 2, 3, 5, 4 };
+            var sln = new FrogRiverOne.Solution();
+            sln.solution(5, sourceArray);
 
             Console.ReadKey();
         }
