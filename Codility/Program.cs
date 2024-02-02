@@ -27,9 +27,13 @@
             //var sln = new TapeEquilibrium.Solution();
             //sln.solution(sourceArray);
 
-            int[] sourceArray = { 1, 3, 1, 4, 2, 3, 5, 4 };
-            var sln = new FrogRiverOne.Solution();
-            sln.solution(5, sourceArray);
+            //int[] sourceArray = { 1, 3, 1, 4, 2, 3, 5, 4 };
+            //var sln = new FrogRiverOne.Solution();
+            //sln.solution(5, sourceArray);
+
+            int[] sourceArray = { 4, 1, 3, 2 };
+            var sln = new PermCheck.Solution();
+            sln.solution(sourceArray);
 
             Console.ReadKey();
         }
